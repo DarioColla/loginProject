@@ -20,5 +20,17 @@ namespace inlogProjectApp
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (userTextBox.Text == "admin" && paswordTextBox.Text == "admin")
+            {
+                inlogTextBlock.Text = "U wordt ingelogd";
+            }
+
+
+
+        }
     }
 }
